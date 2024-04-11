@@ -27,9 +27,9 @@ nav span {
   justify-content: felx-end;
 }
 
-.profile{
-  display:flex;
-  margin:30px;
+.profile {
+  display: flex;
+  margin: 30px;
   gap: 5vw;
 }
 
@@ -38,74 +38,69 @@ nav span {
   align-items: center;
 }
 
-.profileImg{
-  width:150px;
-  height:150px;
-  border:1px solid gray;
-  border-radius:50%;
-  overflow:hidden;
-
-  display:felx
+.profileImg {
+  width: 150px;
+  height: 150px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-
-
-.profileImg{
-  max-width :80%;
+.profileImg {
+  max-width: 80%;
   max-height: 80%;
-  object-fit:cover;
+  object-fit: cover;
 }
-
 
 ul {
   list-style: none;
   padding-left: 0px;
 }
-a{
-  text-decoration-line:none;
-  color:black;
+a {
+  text-decoration-line: none;
+  color: black;
 }
-a:hover{
-  color:blue;
-}
-
-section{
-  display:flex;
-  flex-direction:column;
-  width:100%;
+a:hover {
+  color: blue;
 }
 
-.number{
-  display:flex;
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.number {
+  display: flex;
   justify-content: space-around;
   padding: 20px;
   align-items: center;
   border-bottom: 1px solid gray;
 }
 
-.gridImg{
-  display:grid;
-  padding:20px;
-  grid-template-columns:1fr 1fr 1fr;
-  gap:5px;
+.gridImg {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
 
-  img{
-    width:100%;
-    heigth:auto;
+  img {
+    width: 100%;
+    heigth: auto;
     object-fit: cover;
   }
 }
 
-footer div{
-  position:fixed;
-  bottom:0px;
+footer div {
+  position: fixed;
+  bottom: 0px;
   width: calc(100% - 400px);
-  display:flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  border-top:1px solid gray;
+  border-top: 1px solid gray;
 }
